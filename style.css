@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('VT323/VT323-Regular.ttf') format('truetype');
+  }
+  
+* {
+    font-family: 'CustomFont', sans-serif;
+}  
+body {
+    background-color: #3C486B;
+}
+header {
+    text-align: center;
+    color: #F9D949;
+    font-size: 28px;
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #F9D949;
+    font-size: 25px;
+}
+
+.controls > button {
+    padding: 10px 5px;
+    background-color: #862B0D;
+    color: #F0F0F0;
+    font-size: 18px;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.controls > button:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+    height: 500px;
+    width: 500px;
+    border: 5px solid #F9D949;
+}
+
+.square {
+    grid: 1fr;
+}
+
+
+
+
+
